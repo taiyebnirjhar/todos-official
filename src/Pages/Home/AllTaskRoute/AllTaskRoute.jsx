@@ -12,27 +12,27 @@ function AllTaskRoute() {
       <div className="col-div-3">
         <div className="box">
           <p>
-            67
+            0
             <br />
-            <span>Customers</span>
+            <span>Total Task</span>
           </p>
         </div>
       </div>
       <div className="col-div-3">
         <div className="box">
           <p>
-            88
+            0
             <br />
-            <span>Projects</span>
+            <span>Completed Task</span>
           </p>
         </div>
       </div>
       <div className="col-div-3">
         <div className="box">
           <p>
-            99
+            0
             <br />
-            <span>Orders</span>
+            <span>Pending Task</span>
           </p>
         </div>
       </div>
@@ -48,37 +48,8 @@ function AllTaskRoute() {
       <div className="col-div-8">
         <div className="box-8">
           <div className="content-box">
-            <p>
-              Top Selling Projects <span>Sell All</span>
-            </p>
+            <p className="text-slate-300"> All Tasks</p>
             <br />
-            <table>
-              <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
-              </tr>
-              <tr>
-                <td>Alfreds Futterkiste</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-              </tr>
-              <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-              </tr>
-              <tr>
-                <td>Ernst Handel</td>
-                <td>Roland Mendel</td>
-                <td>Austria</td>
-              </tr>
-              <tr>
-                <td>Island Trading</td>
-                <td>Helen Bennett</td>
-                <td>UK</td>
-              </tr>
-            </table>
           </div>
         </div>
       </div>
@@ -87,9 +58,7 @@ function AllTaskRoute() {
       <div className="col-div-4">
         <div className="box-4">
           <div className="content-box">
-            <p>
-              Total Sale <span>Sell All</span>
-            </p>
+            <p className="text-slate-300">Completed Task Ratio</p>
 
             <div className="circle-wrap">
               <div className="circle">
@@ -99,7 +68,7 @@ function AllTaskRoute() {
                 <div className="mask half">
                   <div className="fill"></div>
                 </div>
-                <div className="inside-circle"> 70% </div>
+                <div className="inside-circle"> 0% </div>
               </div>
             </div>
           </div>
