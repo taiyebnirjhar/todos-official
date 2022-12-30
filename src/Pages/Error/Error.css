@@ -1,0 +1,9 @@
+.bg-Error {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/images/Error.json");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

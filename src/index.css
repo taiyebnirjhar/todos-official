@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ProductSans";
+  src: url("../src/assets/fonts/Google-Sans/ProductSans-Regular.woff");
+}
+@font-face {
+  font-family: "GoogleOld";
+  src: url("../src/assets/fonts/Google-2015/4_COLOURS___1_BROWSING_COMPANY__BY_DLEDEVIANTD9846Q0.TTF");
+}
+
+.google-sans {
+  font-family: "ProductSans";
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.google-old {
+  font-family: "GoogleOld";
+}
